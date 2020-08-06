@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  color: #a28b39;
+  font-family: 'Oxygen', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  padding-top: 1px;
+  border: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: auto;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.display-4 {
+  color: #000000;
+}
+
+.main-tile{
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#Who-tile, #What-tile, #How-tile, #Where-tile {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+#Who-tile:hover, #What-tile:hover, #How-tile:hover, #Where-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/*#What-tile span, #Where-tile span, #Who-tile span, #How-tile span {
+  position: relative;
+  width: 100%;
+  right: 0;
+  text-align-last: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}*/
+
+/*#home-tiles {
+  position: relative;
+  max-width: 800px;  Maximum width 
+  margin: 0 auto; /* Center it */
+}
+
+#home-tiles {
+  position: relative;
+  min-width: 100%; /* Maximum width */
+  margin-right: 10%; /* Center it */
+}
+
+.row .content {
+  box-sizing: content-box;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 82%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.panel-footer {
+  margin-top: 25px;
+  background-color:#a28b39;
+  font-size: 12px;
+  color:#000000;
+
+}
+
+#Copyright {
+  padding-top: 1%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#institution span, #appreciations span {
+  font-size: 14px;
+  font-weight: bold;
+}
