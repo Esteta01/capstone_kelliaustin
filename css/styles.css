@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #a28b39;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 * {
@@ -29,63 +29,52 @@ body {
   color: #000000;
 }
 
-.main-tile{
-  font-size: 16px;
-  font-weight: bold;
-  color: #000000;
+/* Style the active class (and buttons on mouse-over) */
+.active, .nav-item:hover {
+  background-color: #a28b39;
+  opacity: 0.9;
+  box-shadow: 1px 1px 3px 1px #cccccc;
 }
 
-#Who-tile, #What-tile, #How-tile, #Where-tile {
-  height: 100%;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-}
-
-#Who-tile:hover, #What-tile:hover, #How-tile:hover, #Where-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-
-/*#What-tile span, #Where-tile span, #Who-tile span, #How-tile span {
-  position: relative;
-  width: 100%;
-  right: 0;
-  text-align-last: center;
-  font-size: 2em;
-  text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}*/
-
-/*#home-tiles {
-  position: relative;
-  max-width: 800px;  Maximum width 
-  margin: 0 auto; /* Center it */
-}
-
-#home-tiles {
-  position: relative;
-  min-width: 100%; /* Maximum width */
-  margin-right: 10%; /* Center it */
+img {
+  text-align: center;
+  background-image: center;
+  object-position: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
 }
 
 .row .content {
-  box-sizing: content-box;
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
+  position: absolute;  /*Position the background text*/ 
+  vertical-align: middle;
+  bottom: 0;
+  margin-bottom: 15px;
+  background: rgb(0, 0, 0); /* Fallback color*/ 
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 82%; /* Full width */
-  padding: 20px; /* Some padding */
+  width: 94%; /* Full width */
+  max-height: 25%;
+  font-size: 1em;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 95%;
+    padding: 15px;
+}
+
+#Who-tile:hover, #What-tile:hover, #How-tile:hover, #Where-tile:hover {
+  box-shadow: 0 3px 5px 3px #cccccc;
 }
 
 .panel-footer {
   margin-top: 25px;
   background-color:#a28b39;
-  font-size: 12px;
+  opacity:0.7;
+  font-size: 14px;
   color:#000000;
+  font-weight: bold;
 
 }
 
@@ -99,3 +88,69 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
+
+/*Secondary HTML page*/
+
+.jumbotron, .jumbotron-fluid {
+  max-height: 500px;
+  margin-top: 25px;
+  padding: 0px;
+  align-content: center;
+  object-position: center;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#blog0 {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+#blog1, #blog2, #blog3 {
+  text-align: justify;
+  font-size: 14px;
+  color: #000000;
+}
+
+#jumbo, #blog_quote {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*End of whom HTML Page*/
+
+/*Secondary HTML page*/
+
+#main-content_ref {
+  margin-top: 20px;
+}
+
+#bg1, #bg2 {
+  margin-bottom: 0;
+}
+
+#bg2, #bg3 {
+  margin-top: 0;
+}
+
+#bg1_text {
+  text-align: justify;
+  font-size: 14px;
+  color: #000000;
+}
+
+#bg2_text {
+  text-align: justify;
+  font-size: 14px;
+  color: #000000;
+}
+
+#bg3_text {
+  text-align: justify;
+  font-size: 14px;
+  color: #000000;
+}
+
+/*End of whom HTML Page*/
+
