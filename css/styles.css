@@ -154,3 +154,51 @@ img {
 
 /*End of whom HTML Page*/
 
+/*Pagination Formatting*/
+
+.pagination > li > a
+{
+    background-color: white;
+    font-size: 16px;
+    color: #a28b39;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 14px;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: #a28b39;
+    border-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.pagination > .active > a
+{
+    text-decoration: none !Important;
+    background-color: #a28b39; !Important;
+    border: none;
+    border-color: #a28b39; !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #a28b39; !Important;
+    border: none;
+    border-color: #a28b39; !Important; 
+    color: black;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    background-color: #a28b39;
+    border-color: #a28b39;
+ 
+}
+
+/*End of Pagination Formatting*/
+
