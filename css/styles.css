@@ -8,10 +8,15 @@ body {
   box-sizing: border-box;
 }
 
-.navbar-brand {
+.navbar-brand#logo {
   padding-top: 1px;
   border: none;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 5px #000000;
 }
+
 
 .navbar-nav {
   margin-left: auto;
@@ -30,9 +35,16 @@ body {
 }
 
 /* Style the active class (and buttons on mouse-over) */
-.active, .nav-item:hover {
+.active  {
   background-color: #a28b39;
-  opacity: 0.9;
+  opacity: 0.8;
+  box-shadow: 1px 1px 3px 1px #cccccc;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+  background-color: rgba(162, 139, 57, 0.64);
+  opacity: 0.8;
   box-shadow: 1px 1px 3px 1px #cccccc;
 }
 
@@ -54,7 +66,7 @@ img {
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 94%; /* Full width */
-  max-height: 25%;
+  max-height: 30%;
   font-size: 1em;
 }
 
@@ -112,6 +124,7 @@ img {
   text-align: justify;
   font-size: 14px;
   color: #000000;
+  margin-bottom: 0;
 }
 
 #jumbo, #blog_quote {

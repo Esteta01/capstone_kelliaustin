@@ -10,7 +10,16 @@ body {
 	height: 100vh;
 	font-size: 16px;
   	color: #a28b39;
-	overflow: hidden;
+/*	overflow: hidden;*/
+}
+
+.navbar-brand#logo {
+  padding-top: 1px;
+  border: none;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 5px #000000;
 }
 
 .container {
@@ -49,9 +58,16 @@ body {
 }
 
 /* Style the active class (and buttons on mouse-over) */
-.active, .nav-item:hover {
+.active  {
   background-color: #a28b39;
-  opacity: 0.9;
+  opacity: 0.8;
+  box-shadow: 1px 1px 3px 1px #cccccc;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+  background-color: rgba(162, 139, 57, 0.64);
+  opacity: 0.8;
   box-shadow: 1px 1px 3px 1px #cccccc;
 }
 
@@ -110,21 +126,17 @@ section p {
 }
 
 section#Bibliography {
-	background: url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60') no-repeat center center /cover;
+	background: url('https://images.unsplash.com/photo-1590654482052-013a6d19c18b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=654&q=80') no-repeat center center /cover;
 }
 
+
 section#Author {
-	background: url('../images/theauthor.jpg') no-repeat bottom center /cover;
+	background: url('https://images.unsplash.com/photo-1485207942280-52442adf437e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1401&q=80') no-repeat top center /cover;
 }
 
 section#Program {
-	background: url('../images/aboutprogram.jpg') no-repeat top center /cover;
+	background: url('https://images.unsplash.com/photo-1596466790290-84e8f17b0d87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80') no-repeat top center /cover;
 }
-
-section#Thanks {
-	background: url('https://unsplash.com/photos/kUHfMW8awpE') no-repeat bottom center /cover;
-}
-
 
 
 /* Page content */
@@ -172,3 +184,67 @@ section#Thanks {
   background: #3B5998;
   color: white;
 }*/
+
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: auto;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.display-4 {
+  color: #000000;
+}
+
+
+.pagination > li > a
+{
+    background-color: white;
+    font-size: 16px;
+    color: #a28b39;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 14px;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: #a28b39;
+    border-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.pagination > .active > a
+{
+    text-decoration: none !Important;
+    background-color: #a28b39; !Important;
+    border: none;
+    border-color: #a28b39; !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #a28b39; !Important;
+    border: none;
+    border-color: #a28b39; !Important; 
+    color: black;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    background-color: #a28b39;
+    border-color: #a28b39;
+ 
+}
+
+/*End of Pagination Formatting*/
